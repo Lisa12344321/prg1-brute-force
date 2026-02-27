@@ -17,6 +17,4 @@ for nyckel in range(0, len(alfabet)):
         else:
             dekrypterat += bokstav
 
-    print(dekrypterat)
-    if dekrypterat.lower() in ordlista:
-        print(nyckel)
+    print(f"Nyckel: {nyckel} | {dekrypterat}")
